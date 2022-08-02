@@ -1,0 +1,5 @@
+0
+The used parameters are: 
+preferredRatio: 25
+maxAmountInitialSpanningTrees: 10
+maxAmountBadPerturbations: 3000

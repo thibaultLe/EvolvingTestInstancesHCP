@@ -1,0 +1,9 @@
+#!/bin/bash -l
+#PBS -l nodes=1:ppn=18
+#PBS -l walltime=23:00:00
+
+cd /data/leuven/333/vsc33381/concordeClusterTuning
+
+module load Python/3.6.4-intel-2018a
+
+python3 chain_programs.py $instanceName
