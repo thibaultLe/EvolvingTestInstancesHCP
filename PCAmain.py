@@ -13,7 +13,7 @@ nbrOfFiles = 0
 y = []
 fitnessValues = []
 HCPNumbers = []
-UsingAllInstancesForPCA = False
+UsingAllInstancesForPCA = True
 
 #iterate over ind files
 for subdir, dirs, files in os.walk(rootdir):
@@ -262,7 +262,10 @@ else:
     names1 = np.array(x[:,0])
     namesreverselogged = math.e**names1
     plt.figure()
-    plt.scatter(Xax,Yax, c=fitnessValues, cmap="rainbow",s=12,alpha=0.5)
+    if UsingAllInstancesForPCA:
+        plt.scatter(Yax,Xax, c=fitnessValues, cmap="rainbow",s=12,alpha=0.5)
+    else:
+        plt.scatter(Xax,Yax, c=fitnessValues, cmap="rainbow",s=12,alpha=0.5)
 
 
 # # Green dot if Concorde is faster:
