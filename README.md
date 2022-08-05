@@ -14,22 +14,15 @@ The subfolders are named after how the instances were added, namely:
 
 
 If you use these instances or code, please cite 
-  @misc{https://doi.org/10.48550/arxiv.2011.02291,
-    
+      
+    @article{LechienEtAl2020,
     doi = {10.48550/ARXIV.2011.02291},
-
     url = {https://arxiv.org/abs/2011.02291},
-
     author = {Lechien, Thibault and Jooken, Jorik and De Causmaecker, Patrick},
-
     keywords = {Artificial Intelligence (cs.AI), Discrete Mathematics (cs.DM), Neural and Evolutionary Computing (cs.NE), FOS: Computer and information sciences, FOS: Computer and information sciences, F.2.2; G.2.2},
-
     title = {Evolving test instances of the Hamiltonian completion problem},
-
     publisher = {arXiv},
-
     year = {2020},
-
     copyright = {arXiv.org perpetual, non-exclusive license}
   }
 
