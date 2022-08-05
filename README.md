@@ -2,7 +2,7 @@
 
 These are all the test instances and code used in the paper 'Evolving test instances of the Hamiltonian completion problem'.
 
-In order to run the evolutionary algorithm, run EvolveInstances.py in the folder /EvolveInstances.
+In order to run the evolutionary algorithm, run EvolveInstances.py in the folder /EvolveInstances. It is compatible with Linux environments.
 
 In order to run the PCA, run PCAmain.py.
 
