@@ -15,6 +15,7 @@ The subfolders are named after how the instances were added, namely:
 
 If you use these instances or code, please cite 
   @misc{https://doi.org/10.48550/arxiv.2011.02291,
+    
     doi = {10.48550/ARXIV.2011.02291},
 
     url = {https://arxiv.org/abs/2011.02291},
