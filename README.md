@@ -1,9 +1,13 @@
 # EvolvingTestInstancesHCP
 
 These are all the test instances and code used in the paper 'Evolving test instances of the Hamiltonian completion problem'.
+
 In order to run the evolutionary algorithm, run EvolveInstances.py in the folder /EvolveInstances.
+
 In order to run the PCA, run PCAmain.py.
+
 In order to access the test instances, consult the folder /Test instances.
+
 The subfolders are named after how the instances were added, namely:
 
 'Evo' means we evolved them by maximizing the difference in runtime of the 2 considered solvers. 
