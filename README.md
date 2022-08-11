@@ -28,5 +28,24 @@ If you use these instances or code, please cite
     publisher = {arXiv},
     year = {2020},
     copyright = {arXiv.org perpetual, non-exclusive license}
-  }
+      }
+      
+      
+    @article{JookenEtAl2020,
+	author = {Jooken, Jorik and Leyman, Pieter and De Causmaecker, Patrick},
+	year = {2020},
+	month = {07},
+	pages = {},
+	title = {A multi-start local search algorithm for the {Hamiltonian} completion problem on undirected graphs},
+	journal = {Journal of Heuristics},
+	doi = {10.1007/s10732-020-09447-9}
+      }
+      
+    @misc{Concorde,
+	author = {David L. Applegate},
+	title = {Concorde {TSP} {Solver}},
+	year = {2003},
+	howpublished = {\url{https://www.math.uwaterloo.ca/tsp/concorde/index.html}},
+	note = "[Online; accessed 7 August 2021]"
+      }
 
