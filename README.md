@@ -19,16 +19,18 @@ The subfolders are named after how the instances were added, namely:
 
 If you use these instances or code, please cite 
       
-    @article{LechienEtAl2020,
-    doi = {10.48550/ARXIV.2011.02291},
-    url = {https://arxiv.org/abs/2011.02291},
-    author = {Lechien, Thibault and Jooken, Jorik and De Causmaecker, Patrick},
-    keywords = {Artificial Intelligence (cs.AI), Discrete Mathematics (cs.DM), Neural and Evolutionary Computing (cs.NE), FOS: Computer and information sciences, FOS: Computer and information sciences, F.2.2; G.2.2},
-    title = {Evolving test instances of the Hamiltonian completion problem},
-    publisher = {arXiv},
-    year = {2020},
-    copyright = {arXiv.org perpetual, non-exclusive license}
-      }
+    @article{LechienEtAl2022,
+	title = {Evolving test instances of the Hamiltonian completion problem},
+	journal = {Computers & Operations Research},
+	pages = {106019},
+	year = {2022},
+	issn = {0305-0548},
+	doi = {https://doi.org/10.1016/j.cor.2022.106019},
+	url = {https://www.sciencedirect.com/science/article/pii/S0305054822002490},
+	author = {Thibault Lechien and Jorik Jooken and Patrick {De Causmaecker}},
+	keywords = {Evolving instances, Instance space, Hamiltonian completion problem},
+	abstract = {Predicting and comparing algorithm performance on graph instances is challenging for multiple reasons. First, there is not always a standard set of instances to benchmark performance. Second, using existing graph generators results in a restricted spectrum of difficulty and the resulting graphs are not always diverse enough to draw sound conclusions. That is why recent work proposes a new methodology to generate a diverse set of instances by using evolutionary algorithms. We can then analyze the resulting graphs and get key insights into which attributes are most related to algorithm performance. We can also fill observed gaps in the instance space in order to generate graphs with previously unseen combinations of features. We apply this methodology to the instance space of the Hamiltonian completion problem using two different solvers, namely the Concorde TSP Solver and a multi-start local search algorithm.}
+	}
       
       
     @article{JookenEtAl2020,
